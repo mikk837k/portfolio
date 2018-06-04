@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+/*-------------------- Typografi ------------------*/
+
+h1 {}
+
 /*------------ Default section settings -----------*/
 
 #tema_01 {
@@ -21,29 +25,55 @@ body {
     margin: 2vw;
 }
 
+
+
+/*---------------- forside ------------------------*/
+
+#welcomePage {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw 2vw 0 2vw;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+.textbox {
+    flex-grow: 1;
+    flex-basis: 100px;
+    text-align: center;
+
+}
+
+.selfportrait img {
+    width: 100%;
+    min-width: 250px;
+}
+
+.selfportrait {
+    flex-grow: 1;
+    flex-basis: 100px;
+}
+
+
 /*---------------- Top Navigation -----------------*/
 
-.topNav {
-    background-color: #ffffff;
-    overflow: hidden;
-    box-shadow: 0px 1px 30px grey;
-}
-
-.topnav a {
-    float: left;
-    color: #f2f2f2;
+#topNav {
+    display: flex;
     text-align: center;
-    padding: 14px 16px;
+    height: 35px;
+    box-shadow: 0 4px 25px grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a {
     text-decoration: none;
-    font-size: 17px;
+    padding: 2px 8px
 }
 
-#selfportrait {
-    margin: 0 auto;
-}
-
-#selfportrait img {
-    max-width: 80vw;
+.nav img {
+    width: 25px;
+    padding-top: 4px;
 }
 
 /*------------- Navigation Wheel ----------------*/
