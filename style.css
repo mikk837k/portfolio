@@ -38,6 +38,14 @@ body {
     font-size: 17px;
 }
 
+#selfportrait {
+    margin: 0 auto;
+}
+
+#selfportrait img {
+    max-width: 80vw;
+}
+
 /*------------- Navigation Wheel ----------------*/
 
 .navWheel {
