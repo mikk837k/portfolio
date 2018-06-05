@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+footer {
+    text-align: center;
+}
+
 /*-------------------- Typografi ------------------*/
 
 h1 {}
@@ -10,7 +14,10 @@ h1 {}
 /*------------ Default section settings -----------*/
 
 #tema_01 {
-    margin: 2vw;
+    margin: 0 auto;
+    margin-top: 3vw;
+    height: 400px;
+    max-width: 80vw;
 }
 
 #tema_02 {
@@ -32,7 +39,7 @@ h1 {}
 #welcomePage {
     display: flex;
     flex-wrap: wrap;
-    margin: 2vw 2vw 0 2vw;
+    margin: 2vw 2vw 20px 2vw;
     align-items: center;
     border-bottom: 3px solid black;
 }
@@ -41,7 +48,6 @@ h1 {}
     flex-grow: 1;
     flex-basis: 100px;
     text-align: center;
-
 }
 
 .selfportrait img {
@@ -130,9 +136,27 @@ h1 {}
     border-radius: 0% 0% 100% 0%;
 }
 
+/*---------------- projects -----------------*/
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.project {
+    background-color: red;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
 @media screen and (max-width:375px) {
     .navWheel {
         margin-top: 70vw;
+    }
+    #welcomePage {
+        margin-top: 25vw;
     }
 }
 
