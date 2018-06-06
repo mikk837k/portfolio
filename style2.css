@@ -1,0 +1,22 @@
+#section {
+    width: 50vw;
+    height: 25vw;
+}
+.container {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    flex-wrap: wrap;
+    align-content:center;
+}
+
+.box {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+.one {
+    background-color: blue;
+}
+.two {
+    background-color: red;
+}
