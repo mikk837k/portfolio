@@ -7,15 +7,19 @@ body {
 footer {
     margin-top: 30px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*-------------------- Typografi ------------------*/
 
-h1 {}
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
 
 a {
     font-family: 'Poppins', sans-serif;
 }
+
 p {
     font-family: 'Poppins', sans-serif;
 }
@@ -34,13 +38,15 @@ p {
 
 #case_one {
     margin: 0 auto;
-     background-color: white;
+    padding-bottom: 30px;
+    background-color: white;
     box-shadow: 0 5px 25px grey;
 }
 
 #case_two {
     margin: 0 auto;
-     background-color: white;
+    padding-bottom: 30px;
+    background-color: white;
     box-shadow: 0 5px 25px grey;
 }
 
@@ -51,6 +57,7 @@ p {
     width: 100vw;
 
 }
+
 .path {
     margin: 0 auto;
     height: 100%;
@@ -62,7 +69,7 @@ p {
 .cirkel {
     flex-grow: 1;
     flex-basis: 5px;
-     background: radial-gradient(circle, #f4f4f4, white, grey);
+    background: radial-gradient(circle, #f4f4f4, white, grey);
     margin: 20%;
     border-radius: 100%;
     box-shadow: 0 1px 10px black;
@@ -238,6 +245,7 @@ a {
 /*---------------- cases --------------------*/
 
 /*case one*/
+
 .casePhoto {
     position: relative;
     width: 100vw;
