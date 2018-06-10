@@ -403,6 +403,16 @@ iframe {
     flex-basis: 400px;
 }
 
+#sectionTheme04 .column {
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+#sectionTheme04 .column_down {
+    margin: 30px 0;
+    width: 100%;
+}
+
 /*---------------- Animation ---------------*/
 
 .rotate90 {
