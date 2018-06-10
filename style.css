@@ -186,7 +186,6 @@ a {
 
 #navTheme01 {
     flex-grow: 1;
-    background-color: red;
     border-radius: 100% 0% 0% 0%;
     box-shadow: -5px -5px 20px grey;
     background-image: url(images/tema1_foto.jpg);
@@ -195,7 +194,6 @@ a {
 
 #navTheme02 {
     flex-grow: 1;
-    background-color: blue;
     border-radius: 0% 100% 0% 0%;
     box-shadow: 5px -5px 20px grey;
     background-image: url(images/tema2_foto.jpg);
@@ -204,7 +202,6 @@ a {
 
 #navTheme03 {
     flex-grow: 1;
-    background-color: green;
     border-radius: 0% 0% 0% 100%;
     box-shadow: -5px 5px 20px grey;
     background-image: url(images/tema3_foto.jpg);
@@ -213,7 +210,6 @@ a {
 
 #navTheme04 {
     flex-grow: 1;
-    background-color: yellow;
     border-radius: 0% 0% 100% 0%;
     box-shadow: 5px 5px 20px grey;
     background-image: url(images/tema4_foto.jpg);
