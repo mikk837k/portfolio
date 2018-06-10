@@ -62,6 +62,19 @@ body {
   padding: 16px 32px;
 }
 
+.testlink {
+    margin: 0 auto;
+}
+a {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+     background-color: white;
+    box-shadow: 0 5px 25px grey;
+}
+
+
+
 @media screen and (max-width:657px) {
     .container {
         max-height: 30vw;
