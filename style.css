@@ -155,7 +155,8 @@ a {
     flex-grow: 1;
     background-color: red;
     border-radius: 100% 0% 0% 0%;
-    background-image: url(images/tema1_foto.png);
+    box-shadow: -5px -5px 20px grey;
+    background-image: url(images/tema1_foto.jpg);
     background-size: cover;
 }
 
@@ -163,7 +164,8 @@ a {
     flex-grow: 1;
     background-color: blue;
     border-radius: 0% 100% 0% 0%;
-    background-image: url(images/tema2_foto.png);
+    box-shadow: 5px -5px 20px grey;
+    background-image: url(images/tema2_foto.jpg);
     background-size: cover;
 }
 
@@ -171,12 +173,18 @@ a {
     flex-grow: 1;
     background-color: green;
     border-radius: 0% 0% 0% 100%;
+    box-shadow: -5px 5px 20px grey;
+    background-image: url(images/tema3_foto.jpg);
+    background-size: cover;
 }
 
 #navTheme04 {
     flex-grow: 1;
     background-color: yellow;
     border-radius: 0% 0% 100% 0%;
+    box-shadow: 5px 5px 20px grey;
+    background-image: url(images/tema4_foto.jpg);
+    background-size: cover;
 }
 
 /*---------------- projects -----------------*/
