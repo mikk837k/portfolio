@@ -66,7 +66,7 @@ function showSection(event) {
     $("#pathcontainer").removeClass("hide");
 }
 
-function showSectionContent(theme, side) {
+/*function showSectionContent(theme, side) {
     const a = "#sectionContent" + theme + "Right";
     console.log(theme, side);
     console.log(a);
@@ -78,4 +78,4 @@ function showSectionContent(theme, side) {
         $("#sectionContent" + theme + "Left").addClass("hide");
         $("#sectionContent" + theme + "Right").removeClass("hide");
     }
-}
+}*/

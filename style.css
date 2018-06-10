@@ -384,6 +384,14 @@ a {
     margin-bottom: 30px
 }
 
+.bottom img {
+    width: 100%;
+    max-width: 500px;
+    min-width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
 iframe {
     width: 100%;
     height: 300px;
